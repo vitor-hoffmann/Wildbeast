@@ -212,6 +212,15 @@ p {
 .atributos li + li {
   border-top: 2px solid #b07dfb;
 }
+.anuncios {
+  grid-area: anuncios;
+  background: #fafbfc;
+  display: grid;
+  align-content: start;
+  padding: 30px;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
 @keyframes seta {
   from {
     right: 30px;
