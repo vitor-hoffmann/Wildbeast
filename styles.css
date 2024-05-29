@@ -221,6 +221,17 @@ p {
   gap: 30px;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
+.footer {
+  grid-area: footer;
+  background: linear-gradient(135deg, #8844ee, #b07dfb);
+}
+
+.footer p {
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
 @keyframes seta {
   from {
     right: 30px;
